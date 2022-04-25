@@ -1,7 +1,7 @@
-name: "homework"
+name: homework
 output_dir: ../docs
 navbar:
-  title: "homework"
+  title: homework
   left:
   - text: Home
     href: index.html
@@ -11,6 +11,10 @@ navbar:
     href: license.html
   - text: homework
     href: homework.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/manikpeter/homework
 output:
   workflowr::wflow_html:
     toc: yes
